@@ -1,0 +1,1 @@
+git@github.com:martynetsmv/posmotri-v-okno-fd.git
