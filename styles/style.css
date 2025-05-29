@@ -66,8 +66,6 @@ fieldset {
 }
 
 .title {
-  position: relative;
-  top: 4px;
   font-family: 'Oswald', sans-serif;
   font-weight: 700;
   font-size: 75px;
@@ -82,6 +80,7 @@ fieldset {
 .content__details {
   display: flex;
   flex-direction: column;
+  overflow: hidden;
   gap: 26px;
 }
 
@@ -110,6 +109,7 @@ fieldset {
   height: 103px;
   object-fit: cover;
   object-position: center;
+  flex-shrink: 0;
 }
 
 .content__video-card {
@@ -122,7 +122,7 @@ fieldset {
   flex-direction: column;
   flex-grow: 1;
   gap: 4px;
-  max-width: 196px;
+  overflow: hidden;
 }
 
 .content__video-card-description {
