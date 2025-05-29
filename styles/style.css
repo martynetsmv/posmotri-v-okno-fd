@@ -66,7 +66,6 @@ fieldset {
 }
 
 .title {
-  font-family: 'Oswald', sans-serif;
   font-weight: 700;
   font-size: 75px;
   line-height: 94%;
@@ -154,6 +153,10 @@ fieldset {
   background-color: #545050;
 }
 
+.content__card-link:active {
+  background-color: #545050;
+}
+
 .content__card-link:focus {
   outline: 0;
 }
@@ -167,8 +170,10 @@ fieldset {
   width: 100%;
   overflow: hidden;
   font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-weight: 700;
   font-size: 30px;
+  line-height: 100%; 
   line-height: 100%; 
   text-transform: uppercase;
   text-overflow: ellipsis;
