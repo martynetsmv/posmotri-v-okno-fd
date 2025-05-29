@@ -28,7 +28,7 @@ showPreloader(preloaderTmp, videoContainer);
 showPreloader(preloaderTmp, cardsContainer);
 mainMechanics(endpoint);
 
-// осуществляется поиск ✅
+// осуществляется поиск ✅ 
 form.onsubmit = (e) => {
   e.preventDefault();
 
