@@ -57,7 +57,6 @@ fieldset {
 
 .content {
   display: grid;
-  width: 100%;
   grid-template-columns: auto 1fr; 
   align-items: flex-end;
   gap: 30px;
@@ -80,7 +79,6 @@ fieldset {
 .content__details {
   display: flex;
   flex-direction: column;
-  overflow: hidden;
   gap: 26px;
 }
 
@@ -109,18 +107,16 @@ fieldset {
   height: 103px;
   object-fit: cover;
   object-position: center;
-  flex-shrink: 0;
 }
 
 .content__video-card {
-  display: flex;
-  flex-wrap: nowrap;
+  display: grid;
+  grid-template-columns: 1fr auto;
 }
 
 .content__video-card-description-container {
   display: flex;
   flex-direction: column;
-  flex-grow: 1;
   gap: 4px;
   overflow: hidden;
 }
@@ -154,10 +150,6 @@ fieldset {
   background-color: #545050;
 }
 
-.content__card-link:active {
-  background-color: #545050;
-}
-
 .content__card-link:focus {
   outline: 0;
 }
@@ -171,10 +163,8 @@ fieldset {
   width: 100%;
   overflow: hidden;
   font-family: 'Oswald', sans-serif;
-  font-family: 'Oswald', sans-serif;
   font-weight: 700;
   font-size: 30px;
-  line-height: 100%; 
   line-height: 100%; 
   text-transform: uppercase;
   text-overflow: ellipsis;
